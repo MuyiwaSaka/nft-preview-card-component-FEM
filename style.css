@@ -1,0 +1,18 @@
+:root {
+    --col-softblue: hsl(215, 51%, 70%);
+    --col-cyan: hsl(178, 100%, 50%);
+    --col-mainbg: hsl(217, 54%, 11%);
+    --col-cardbg: hsl(216, 50%, 16%);
+    --col-line: hsl(215, 32%, 27%);
+    --col-white: hsl(0, 0%, 100%);
+}
+
+body{
+
+}
+
+main {
+    display: grid;
+    place-content: center;
+    align-items: center;
+}

@@ -45,7 +45,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-
+- I updated the index.html style section with the colors as specified in the style guide by storing them as CSS variables. 
+- Next I structured the Html properly.
 ### Built with
 
 - Semantic HTML5 markup
