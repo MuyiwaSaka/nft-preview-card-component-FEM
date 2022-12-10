@@ -124,6 +124,7 @@ main {
 main>img {
     grid-area: image;    
     border-radius: var(--commonradius);
+    cursor: pointer;
 }
 
 .item_heading {
@@ -182,6 +183,7 @@ p.item_age:before{
 .creator {
     color: var(--col-white);
     font-size: .88rem;
+    cursor: pointer;
 }
 .footerpic{
     grid-area: picture;
