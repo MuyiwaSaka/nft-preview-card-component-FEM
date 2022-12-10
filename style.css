@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 :root {
     --col-softblue: hsl(215, 51%, 70%);
     --col-cyan: hsl(178, 100%, 50%);
@@ -104,7 +105,7 @@ main {
     background-color: var(--col-cardbg);
     border-radius: var(--commonradius);
     width: 320px;
-    padding:1.5em;
+    padding: 1.5em;
     margin: 5%;
     grid-template-rows: auto 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -116,13 +117,13 @@ main {
         "footer footer";
     align-items: center;
     justify-items: center;
-   
+
     gap: 5px;
     filter: drop-shadow(16px 16px 10px black)
 }
 
 main>img {
-    grid-area: image;    
+    grid-area: image;
     border-radius: var(--commonradius);
     cursor: pointer;
 }
@@ -130,7 +131,7 @@ main>img {
 .item_heading {
     grid-area: heading/auto;
     justify-self: start;
-    color:var(--col-white);
+    color: var(--col-white);
     font-size: .95rem;
     font-weight: 600;
 }
@@ -149,14 +150,15 @@ main>img {
 }
 
 p.item_price:before {
-    content:url('images/icon-ethereum.svg');
-    padding-right: 5px; 
+    content: url('images/icon-ethereum.svg');
+    padding-right: 5px;
 }
 
-p.item_age:before{
-    content:url('images/icon-clock.svg');
-    padding-right: 5px; 
+p.item_age:before {
+    content: url('images/icon-clock.svg');
+    padding-right: 5px;
 }
+
 .item_age {
     grid-area: age;
     justify-self: end;
@@ -170,14 +172,14 @@ p.item_age:before{
     grid-template-columns: 15% 85%;
     grid-template-areas: "picture text";
     align-items: center;
-    gap:0.1em;
+    gap: 0.1em;
     border-top: 1px solid var(--col-line);
     color: var(--col-softblue);
-    width:100%;
-    padding-top:5px;
+    width: 100%;
+    padding-top: 5px;
     align-self: start;
     font-size: .88rem;
-    text-align:left;
+    text-align: left;
 }
 
 .creator {
@@ -185,13 +187,15 @@ p.item_age:before{
     font-size: .88rem;
     cursor: pointer;
 }
-.footerpic{
+
+.footerpic {
     grid-area: picture;
-    width:2.5em;
+    width: 2.5em;
     justify-self: center;
-    float:left;
+    float: left;
 }
-.item_footer>p{
-    grid-area: text;    
+
+.item_footer>p {
+    grid-area: text;
     align-self: start;
 }
